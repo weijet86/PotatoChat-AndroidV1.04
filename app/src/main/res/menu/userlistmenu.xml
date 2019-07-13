@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.websocketchat.Util.ChatActivity" >
+
+    <item
+        android:id="@+id/refresh_userlist"
+        android:title="@string/send_image"
+        android:icon="@drawable/ic_launcher_refresh"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/sort_alphabetically"
+        android:title="sort_alphabetically"
+        android:icon="@drawable/alphabetialorder"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/sort_alphabetically_reverse"
+        android:title="sort_alphabetically"
+        android:icon="@drawable/reversealphabet"
+        app:showAsAction="ifRoom"/>
+
+</menu>

@@ -1,0 +1,26 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:id="@+id/mainFrameA"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/ChatNameZoneA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true">
+
+    <EditText
+        android:id="@+id/EnterChatNameA"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter chat Name"
+        android:textAlignment="center" />
+    </LinearLayout>
+
+</RelativeLayout>

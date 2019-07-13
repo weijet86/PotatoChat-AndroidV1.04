@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.websocketchat.Util.ChatActivity" >
+    
+    <item
+        android:id="@+id/send_image"
+        android:title="@string/send_image"
+        android:icon="@drawable/ic_action_picture"
+        app:showAsAction="ifRoom"/>
+    
+    <item
+        android:id="@+id/send_file"
+        android:title="@string/send_file"
+        android:icon="@drawable/ic_action_attachment"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/send_audio"
+        android:title="@string/send_audio"
+        android:icon="@drawable/ic_action_mic"
+        app:showAsAction="ifRoom" />
+
+	<item
+        android:id="@+id/send_video"
+        android:title="@string/send_video"
+        android:icon="@drawable/ic_action_video"
+        app:showAsAction="ifRoom" />
+
+	<item
+	    android:id="@+id/send_drawing"
+	    android:title="@string/send_drawing"
+        android:icon="@drawable/ic_action_edit"
+        app:showAsAction="ifRoom" />
+
+</menu>
