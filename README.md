@@ -13,7 +13,7 @@ Instruction of how to use
 8) You could see all signed-in users after you have signed in to the chat app yourself.
 9) Enjoy!
 
-Instruction on how to websocket URI
+Instruction on how to change websocket URI
 1) Navigate to file app->java->Util->ClientUni.java.
 2) Go to line 74 in code, by default, this line comprises "uri=new URI("ws://10.0.2.2:8080");".
 3) 10.0.2.2 is the IP address and 8080 is the port number for Android emulator's localhost.
