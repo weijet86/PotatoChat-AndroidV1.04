@@ -1,6 +1,6 @@
 # PotatoChat-AndroidV1.04
 This is a simple websocket client chat app for Android written in Java.
-This is an amatuer project written out of boredom built to sharing with everyone as well as entertaining everyone.
+This is an amatuer project written out of boredom and built for sharing with everyone as well as entertaining everyone.
 
 Instruction of how to use
 1) Download the entire file and unzipped it into Android Studio folder in your local disc.
